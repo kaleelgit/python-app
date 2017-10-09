@@ -1,4 +1,4 @@
-node('python-2.7-slim') {
+node('python-slave') {
     def app
 
     stage('Clone repository') {
