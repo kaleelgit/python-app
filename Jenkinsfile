@@ -10,7 +10,7 @@ node() {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("naveend72599/explore:${env.BUILD_NUMBER}")
+        app = docker.build("naveend72599/python-app:${env.BUILD_NUMBER}")
         
     }
 
