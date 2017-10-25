@@ -1,4 +1,4 @@
-node('python-slave') {
+node() {
     def app
 
     stage('Clone repository') {
